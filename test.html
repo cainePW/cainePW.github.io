@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset='utf-8'>
+	<meta name='viewport' content='width=device-width,initial-scale=1'>
+
+	<title>Perry Weather</title>
+
+	<link rel='icon' type='image/png' href='/favicon.png'>
+	<link rel='stylesheet' type="text/css" href='/global.css'>
+
+    <style>
+        html {
+            padding: 0;
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div style="width: 600px; border-radius: 30px; position:relative" id="pwWidget">
+        <script src="https://widget-static-js-test.s3.us-west-2.amazonaws.com/js/PwIframe.min.js"> </script>
+        <script>
+            PwIframe.createPerryWeatherWidget('4edb7181-e4e9-48d1-aca7-c57166bbbda9');
+        </script>
+    </div> 
+</body>
+
+
+</html>
